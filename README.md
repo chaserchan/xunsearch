@@ -1,4 +1,5 @@
-# Xunsearch for PHP
+# Xunsearch for PHP  基于 ShaoZeMing/xunsearch二次开发
+### 更加适合thinkphp6
 
 ---
 [![](https://travis-ci.org/ShaoZeMing/xunsearch.svg?branch=master)](https://travis-ci.org/ShaoZeMing/xunsearch) 
