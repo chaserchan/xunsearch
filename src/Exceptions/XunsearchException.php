@@ -1,10 +1,8 @@
 <?php
 
-namespace ShaoZeMing\Xunsearch\Exceptions;
+namespace Chasechan\Xunsearch\Exceptions;
 /**
  *  SmsException.php
- *
- * @author szm19920426@gmail.com
  * $Id: SmsException.php 2017-08-16 上午11:05 $
  */
 class XunsearchException extends \Exception

@@ -1,6 +1,6 @@
 <?php
 
-namespace ShaoZeMing\Xunsearch;
+namespace Chasechan\Xunsearch;
 
 
 
@@ -58,8 +58,6 @@ class XunsearchService extends \XS implements XunsearchInterface
 
 
     /**
-     * User: ZeMing Shao
-     * Email: szm19920426@gmail.com
      * @param $string
      * @return array|mixed
      * @throws \XSException
@@ -123,8 +121,6 @@ class XunsearchService extends \XS implements XunsearchInterface
 
 
     /**
-     * User: ZeMing Shao
-     * Email: szm19920426@gmail.com
      * @param array $data
      * @return \XSIndex
      * @throws \XSException
@@ -152,8 +148,6 @@ class XunsearchService extends \XS implements XunsearchInterface
 
 
     /**
-     * User: ZeMing Shao
-     * Email: szm19920426@gmail.com
      * @param array $data
      * @return \XSIndex
      * @throws \XSException
@@ -180,7 +174,7 @@ class XunsearchService extends \XS implements XunsearchInterface
 
     /**
      * 删除索引文档
-     * User: shaozeming
+     * User: Chasechan
      * @param array|string $ids 删除主键值为 $pids 的记录
      * @return \XSIndex
      * @throws \XSException
@@ -202,21 +196,16 @@ class XunsearchService extends \XS implements XunsearchInterface
 
     /**
      * 清空索引数据
-     * User: ZeMing Shao
-     * Email: szm19920426@gmail.com
      * @return \XSIndex
      */
     public function cleanIndex()
     {
-
         return $this->getIndex()->clean();
 
     }
 
 
     /**
-     * User: ZeMing Shao
-     * Email: szm19920426@gmail.com
      * @param int $limit
      * @param int $offset
      * @return $this
@@ -232,8 +221,6 @@ class XunsearchService extends \XS implements XunsearchInterface
 
     /**
      * 模糊搜索
-     * User: ZeMing Shao
-     * Email: szm19920426@gmail.com
      * @param bool $state
      * @return $this
      */
@@ -245,8 +232,6 @@ class XunsearchService extends \XS implements XunsearchInterface
 
     /**
      * 自动匹配同义词
-     * User: ZeMing Shao
-     * Email: szm19920426@gmail.com
      * @param bool $state
      * @return $this
      */
@@ -258,8 +243,7 @@ class XunsearchService extends \XS implements XunsearchInterface
 
     /**
      * 排序
-     * User: ZeMing Shao
-     * Email: szm19920426@gmail.com
+
      * @param $field
      * @param bool $sort
      * @return $this
@@ -274,8 +258,6 @@ class XunsearchService extends \XS implements XunsearchInterface
 
     /**
      * 设置配置
-     * User: ZeMing Shao
-     * Email: szm19920426@gmail.com
      * @param array $config
      * @return $this
      * @throws \XSException
@@ -291,8 +273,6 @@ class XunsearchService extends \XS implements XunsearchInterface
 
     /**
      * 设置bug
-     * User: ZeMing Shao
-     * Email: szm19920426@gmail.com
      * @param $database
      * @return XunsearchService
      * @throws \XSException
@@ -317,8 +297,6 @@ class XunsearchService extends \XS implements XunsearchInterface
     }
 
     /**
-     * User: ZeMing Shao
-     * Email: szm19920426@gmail.com
      * @param $attr
      * @param $value
      * @return $this
@@ -331,8 +309,6 @@ class XunsearchService extends \XS implements XunsearchInterface
 
 
     /**
-     * User: ZeMing Shao
-     * Email: szm19920426@gmail.com
      * @param $attr
      * @return mixed
      */

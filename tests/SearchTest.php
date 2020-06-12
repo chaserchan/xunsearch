@@ -1,8 +1,8 @@
 <?php
-namespace ShaoZeMing\Xunsearch\Test;
+namespace Chasechan\Xunsearch\Test;
 
 use PHPUnit\Framework\TestCase;
-use ShaoZeMing\Xunsearch\XunsearchService;
+use Chasechan\Xunsearch\XunsearchService;
 
 
 class SearchTest extends TestCase

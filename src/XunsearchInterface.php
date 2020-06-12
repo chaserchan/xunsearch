@@ -6,20 +6,16 @@
  * Time: 17:41
  */
 
-namespace ShaoZeMing\Xunsearch;
+namespace Chasechan\Xunsearch;
 
 /**
  * Interface XunsearchInterface
- * User: ZeMing Shao
- * Email: szm19920426@gmail.com
- * @package ShaoZeMing\Xunsearch
+ * @package Chasechan\Xunsearch
  */
 interface XunsearchInterface
 {
 
     /**
-     * User: ZeMing Shao
-     * Email: szm19920426@gmail.com
      * @param $string
      * @return mixed
      */
