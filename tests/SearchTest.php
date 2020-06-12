@@ -32,7 +32,7 @@ class SearchTest extends TestCase
 //            print_r($data);
 
             $result =  $this->instance->addIndex($data);
-            $result = $this->instance->search('泽明 邵');
+            $result = $this->instance->search('你好呀');
 //            $result = $this->instance->setDatabase('student')->search('shao');
 //            $result =  $this->instance->delIndex('3');
 //            $result =  $this->instance->cleanIndex();

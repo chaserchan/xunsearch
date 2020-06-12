@@ -41,7 +41,10 @@ class XunsearchService extends \XS implements XunsearchInterface
 
         $file = XS_APP_ROOT.'/xunsearch.php';
         if(!file_exists($file)){
-            throw new \Exception('配置文件'.$file.'不存在');
+            $strConfig = file_get_contents($file);
+            @chmod(dirname(__DIR__) . '/config/xunsearch.php', 0777); //数据库配置文件的地址
+            $ret = @file_put_contents(dirname(__DIR__) . '/config/database.php', $strConfig); //数据库配置文件的地址
+            // throw new \Exception('配置文件'.$file.'不存在');
         }
         $config = include $file;
 
