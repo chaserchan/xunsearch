@@ -13,8 +13,6 @@ namespace Chasechan\Xunsearch;
 // +----------------------------------------------------------------------
 // | 开源协议 ( https://mit-license.org )
 // +----------------------------------------------------------------------
-// | gitee 代码仓库：https://gitee.com/chasechan/ChaseAdmin
-// +----------------------------------------------------------------------
 
 include_once __DIR__ . '/vendor/lib/XS.php';
 
@@ -124,6 +122,7 @@ class XunsearchService extends \XS implements XunsearchInterface
 
 
     /**
+     * 添加索引
      * @param array $data
      * @return \XSIndex
      * @throws \XSException
@@ -151,6 +150,7 @@ class XunsearchService extends \XS implements XunsearchInterface
 
 
     /**
+     * 更新索引
      * @param array $data
      * @return \XSIndex
      * @throws \XSException
@@ -177,7 +177,6 @@ class XunsearchService extends \XS implements XunsearchInterface
 
     /**
      * 删除索引文档
-     * User: Chasechan
      * @param array|string $ids 删除主键值为 $pids 的记录
      * @return \XSIndex
      * @throws \XSException

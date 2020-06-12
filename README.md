@@ -1,5 +1,4 @@
-# Xunsearch for PHP  基于 ShaoZeMing/xunsearch二次开发
-### 更加适合thinkphp6
+# Xunsearch for PHP  thinkphp6
 
 ---
 [![](https://travis-ci.org/ShaoZeMing/xunsearch.svg?branch=master)](https://travis-ci.org/ShaoZeMing/xunsearch) 
@@ -53,7 +52,7 @@ hightman/xunsearch:latest
 ## Installing
 
 ```shell
-$ composer require shaozeming/xunsearch -v
+$ composer require chasechan/xunsearch -v
 ```
 
 ### configuration 
