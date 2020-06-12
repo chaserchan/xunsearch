@@ -17,12 +17,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "chaserchan\\xunsearch\\": "./src"
+            "chasechan\\xunsearch\\": "./src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "chaserchan\\xunsearch\\Tests\\": "./tests"
+            "chasechan\\xunsearch\\Tests\\": "./tests"
         },
         "classmap": ["src/vendor/lib/"]
     }
